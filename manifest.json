@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Obsidian Link Saver",
+  "version": "1.0",
+  "description": "Save links to Obsidian with a title and notes.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Save to Obsidian",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
